@@ -8,7 +8,7 @@ int main() {
 	//a=11
 	cout << "a is "<<a<<" and res is "<<res<< "\n"; 
 
-	
+	//res 10
 	res = a--; // a=11
 	// a = 10
 	cout << "a is "<<a<<" and res is "<<res<< "\n"; //a is 10 and res is 11
