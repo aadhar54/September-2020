@@ -1,4 +1,7 @@
-
+You are You
+And You are Now
+You are New 
+And You are Wow
 
 <img src ="img/everything_is_temp.jpg" width="160%">
 

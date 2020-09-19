@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
 	int a[100]; // defining array with 100 elements
-
+	// cout<<a[0];
 	//0 ........99 
 	a[0]=5;
 	cout<<a[1]<<endl; // 0 
@@ -20,7 +20,7 @@ int main(){
 		//loop runs five times
 		cout<<"Enter "<<j<<" element"<<endl;
 		cin>>b[j];  // User Input 
-		cout<<b[j]<<endl;
+		cout<<b[j]<<endl;  // b[1]
 
 
 	}
