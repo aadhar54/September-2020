@@ -14,7 +14,7 @@ int main() {
     char ch = 'A'; // adch
     
 
-    // cout<<&ch; //'A'
+     //cout<<"Character"<<&ch<<endl; //'A'
     //Explicit Typecasing from char* to void*
     cout<<(void *)&ch <<endl;
 
