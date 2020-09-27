@@ -2,15 +2,17 @@
 using namespace std;
 
 class Car{
+
 public:
     int price;
     int model_no;
     char name[20];
-    
+
     void start(){
         cout<<"Grrrr...starting the car "<<name<<endl;
     }
     
+
 };
 int main() {
     //static int a;
@@ -27,8 +29,10 @@ int main() {
     C.name[1] = 'M';
     C.name[2] = 'W';
     C.name[3] = '\0';
+
+    // C.name[4] = 'K';
     cout<<C.name<<endl;
-    cout<<C1.name<<endl;;
+    cout<<C1.name<<endl;
     //C.start();
     //cout<<sizeof(C)<<endl; // C is an actual object 28 bytes
     //cout<<sizeof(Car)<<endl; // It will take 28 bytes

@@ -27,7 +27,7 @@ public :
 	void print(){
 		cout<<age<<endl;
 	}
-	void setAge(int a){
+	void setAge(int a){ // setter 
 			age = a;
 	}
 

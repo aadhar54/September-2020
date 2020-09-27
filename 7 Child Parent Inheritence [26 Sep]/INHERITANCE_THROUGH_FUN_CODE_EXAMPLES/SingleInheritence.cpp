@@ -16,7 +16,6 @@ class Batman{
 		int goldCoins = 100;
 
 
-
 };
 
 
@@ -34,7 +33,7 @@ class SonOfBat : public Batman{
 			cout<<"Son of batman's moto "<<moto<<endl;
 			cout<<"Son of batman's bloodGroup "<<bloodGroup<<endl;
 			cout<<"Son of batman's hasFriends "<<hasFriends<<endl;
-			cout<<"Son of batman's  goldCoins"<<goldCoins<<endl;
+			//cout<<"Son of batman's  goldCoins"<<goldCoins<<endl;
 		}
 };
 
