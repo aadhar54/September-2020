@@ -21,7 +21,7 @@ class B : public A                       //  derived class declaration.
 };  
 
 int main(){
-  A a;
+  A a; //
   B b;
   a.display(); // Class A
   b.display(); // Class B

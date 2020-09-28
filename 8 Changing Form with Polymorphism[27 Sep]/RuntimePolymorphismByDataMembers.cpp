@@ -1,4 +1,5 @@
-#include <iostream>    
+#include <iostream> 
+#include <string>   
 using namespace std;    
 class Animal {                                          //  base class declaration.  
     public:    

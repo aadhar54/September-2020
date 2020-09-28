@@ -8,15 +8,24 @@ void eat()
    }        
 };     
 class Dog: public Animal      
-{      
+{     
 public:    
  void eat()      
     {           
     	cout<<"Eating bread...";      
     }  
 };    
-int main(void) {    
-   Dog d = Dog();      
+int main(void) { 
+
+
+   Dog d = Dog(); 
+
+   // Dog()  ---> Creating an object of Dog class
+
+   // Dog d  ----> storing object created of Dog class in d .
+
+
+
    d.eat();    
    return 0;    
 }    
